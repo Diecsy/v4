@@ -33,8 +33,6 @@ if(window.location.pathname === "/index.html" || window.location.pathname === "/
     const randomNumber = Math.floor(Math.random() * options.length);
     return options[randomNumber];
   }
-
-  alert(getRandomOption())
   
   function setRandomPlaceholder() {
     const placeholder = document.getElementById("placeholder");
