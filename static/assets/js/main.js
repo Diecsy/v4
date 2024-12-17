@@ -27,7 +27,7 @@ loadCSS('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icon
 });
 if(window.location.pathname === "/index.html" || window.location.pathname === "/") {
   console.log("[✔️] Index.html");
-  const options = ["Free T Kay", "Von did nothing wrong", "Free R Kelly fr", "Diddy was right", "REAL HAUNTOHOLICS", "Sematary Rocking With Ghost Mountain", "You can go onto any site, like fr", "Mr. Eccles never sees me on my phone.", "dont share this link or we are all cooked af", "tray please dont search bbc again", "trenton is retarded" ];
+  const options = ["Free T Kay", "Von did nothing wrong", "Free R Kelly fr", "Diddy was right", "REAL HAUNTOHOLICS", "Sematary Rocking With Ghost Mountain", "You can go onto any site, like fr", "Mr. Eccles never sees me on my phone.", "dont share this link or we are all cooked af", "tray please dont search bbc again", "trenton is retarded", ];
 
   function getRandomOption() {
     const randomNumber = Math.floor(Math.random() * options.length);
