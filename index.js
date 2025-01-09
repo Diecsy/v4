@@ -24,7 +24,9 @@ const routes = [
   { route: '/info', file: './static/info.html' },
   { route: '/mycourses', file: './static/loading.html' }
 ];
+const nocache = require("nocache");
 
+app.use(nocache());
 app.use(express.json());
 app.use(
   express.urlencoded({
