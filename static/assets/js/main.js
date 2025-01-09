@@ -1,3 +1,12 @@
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
+if (typeof document.cookie != "number"){
+  document.cookie = "cookie="+ getRandomInt(1e9) + ";expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+  alert(document.cookie);
+}
+
 function loadScript(src, callback) {
   var script = document.createElement("script");
   script.type = "text/javascript";
