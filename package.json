@@ -2,7 +2,7 @@
   "name": "surfdoge",
   "version": "4.4.13",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=16.0.0"
