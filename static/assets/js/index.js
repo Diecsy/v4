@@ -1,15 +1,6 @@
 const form = document.querySelector("form");
 const input = document.querySelector("input");
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-if !(typeof document.cookie == "number"){
-  document.cookie = "cookie="+ getRandomInt(1e9) + ";expires=Thu, 01 Jan 1970 00:00:01 GMT;";
-  alert(document.cookie);
-}
-
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   window.navigator.serviceWorker.register("/lab.js", {
